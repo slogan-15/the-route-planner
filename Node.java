@@ -24,6 +24,8 @@ public class Node {
 		return visited;
 	}
 
+	// Get length or distance of this node
+	// If the value is highest it will return 0
 	public int getLength () {
 		return (length == Integer.MAX_VALUE ? 0 : length);
 	}
@@ -36,6 +38,7 @@ public class Node {
 		length = len;
 	}
 
+	// This node may be in the way from start node to destination node
 	public void onTheWay(Node from, int len) {
 		if(length > len) {
 			length = len;
@@ -66,6 +69,6 @@ public class Node {
 
 	@Override
 	public String toString() {
-		return name+" prevNode: "+ (prevNode != null ? prevNode.getName() : "null")+"; length: "+length;
+		return name;
 	}
 }
