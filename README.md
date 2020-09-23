@@ -6,6 +6,9 @@ to station with distance.
 
 ### How to run it from Linux command line
 ``` 
-$ javac *.java && java FindRoute route-file.txt Oppedal Sløvåg
-Oppedal -> Rutledal -> Sløvåg: 20 minutes.
+$ javac *.java && java FindRoute route-file.txt Furenes Sløvåg
+
+result: Furenes -> Eivindvik -> Rutledal -> Sløvåg: 32 minutes.
 ```
+
+
