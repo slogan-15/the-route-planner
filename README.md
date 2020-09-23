@@ -12,6 +12,6 @@ result: Furenes -> Eivindvik -> Rutledal -> Sløvåg: 32 minutes.
 ```
 
 Inline-style: 
-![alt text](https://github.uio.no/kushtra/the-route-planner/blob/master/example/example1.jpg "Example 1")
+![alt text](https://github.com/slogan-15/the-route-planner/blob/master/example/example1.jpg "Example 1")
 
 
