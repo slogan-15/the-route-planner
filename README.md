@@ -11,4 +11,7 @@ $ javac *.java && java FindRoute route-file.txt Furenes Sløvåg
 result: Furenes -> Eivindvik -> Rutledal -> Sløvåg: 32 minutes.
 ```
 
+Inline-style: 
+![alt text](https://github.uio.no/kushtra/the-route-planner/blob/master/example/example1.jpg "Example 1")
+
 
